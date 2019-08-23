@@ -50,10 +50,8 @@ console.log(stegosaurus.length);
 // What time period did tyrannosaurus live in?
 console.log(tyrannosaurus.period);
 
-
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
 console.log(tyrannosaurus.roar());
-
 
 // ==== Arrays ====
 
@@ -92,11 +90,9 @@ const uni = graduates.map(graduate => graduate.university)
 
 console.log(uni);
 
-
 // ==== ADVANCED Array Methods ====
 
 // Given this zoo data from around the United States, follow the instructions below.  Use the specific array methods in the requests below to solve the problems.
-
 
 const zooAnimals = [{"animal_name":"Jackal, asiatic","population":5,"scientific_name":"Canis aureus","state":"Kentucky"},
 {"animal_name":"Screamer, southern","population":1,"scientific_name":"Chauna torquata","state":"Alabama"},
@@ -143,7 +139,6 @@ The zoos need to know their total animal population across the United States.  F
 */
 const populationTotal = zooAnimals.reduce((total, animal) => total += animal.population, 0)
 console.log(populationTotal);
-
 
 /* 
 
